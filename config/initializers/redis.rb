@@ -1,0 +1,1 @@
+$redis = Redis::Namespace.new(Rails.application.class.parent.to_s.underscore, :redis => Redis.new)

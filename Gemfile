@@ -8,7 +8,7 @@ gem 'mysql2'
 gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
-gem 'sidekiq', '~> 5.1.0'
+gem 'sidekiq', '~> 5.2.0'
 gem 'redis-rails'
 gem 'redis-namespace'
 gem 'rubocop-faker'
